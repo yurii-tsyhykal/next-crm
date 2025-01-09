@@ -13,7 +13,6 @@ export default function Home() {
       <StatusLabel status={Status.Pending}>Pending</StatusLabel>
       <StatusLabel status={Status.Suspended}>Suspended</StatusLabel>
       <Button>Add</Button>
-      <InputField>Name</InputField>
     </main>
   );
 }
