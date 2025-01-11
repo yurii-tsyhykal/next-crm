@@ -4,7 +4,7 @@ import { Dialog, Transition } from '@headlessui/react';
 import React, { Fragment } from 'react';
 
 export interface ModalProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   show: boolean;
   onClose: () => void;
 }
